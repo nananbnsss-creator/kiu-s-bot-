@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-GUILD_ID = 123456789012345678
+GUILD_ID = 1555269518417469491
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
